@@ -72,7 +72,7 @@ if (titleText.textContent === "¡Has Ganado!"){
 
 
 
-// para contabilizar el número de veces que le damos al botón creamos un let y luego lo traemos a nuestra funcion click
+// para contabilizar el número de veces que le damos al botón creamos 2 let contadores  y luego lo traemos a nuestra funcion click. Antes justo arriba creamos una funcion para que me contabilice.
 
 const handleclick = (event) => {
     event.preventDefault();
