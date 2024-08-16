@@ -58,7 +58,7 @@ const changeSelect = (logo) => {
         titleText.innerHTML = "Empate";
     }
 }
-//hacer función para que finalice la partida a la Decima jugada
+//hacer función para que sume los puntos del jugador y de la computadora
 
 const pointGame =()=>{
 if (titleText.textContent === "¡Has Ganado!"){
@@ -67,9 +67,7 @@ if (titleText.textContent === "¡Has Ganado!"){
 }else if (titleText.textContent === "¡Has perdido!"){
     containcomputer= containcomputer +1;
     computerText.innerHTML= `Computadora: ${containcomputer}`;
-}
-
-    
+}   
 }
 
 
@@ -88,6 +86,7 @@ const handleclick = (event) => {
 
 
 }
+
 
 
 
